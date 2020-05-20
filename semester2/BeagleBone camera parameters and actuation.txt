@@ -1,0 +1,59 @@
+//Note: capital L is used to replace lowercase l for ease of reading.  
+
+ 
+
+Lsusb 
+
+cd /dev 
+
+Ls - aL//history of usb connection 
+
+v4L2-ctL -h      //gives library of many options 
+
+v4L2-ctL -- list-devices//gives all usb connections 
+
+v4L2-ctL --set-ctrl=brightness=200 //set brightness 
+
+v4L2-ctL -all                       //view settings 
+
+v4L2-ctL --list-formats// set resolution settings 
+
+ 
+
+Gitclone git://github.com/derekmolloy/bonecv.git  // get opencv code 
+
+cd boneCV/ 
+
+ 
+
+//How to capture video: 
+
+Ls -al// see files in directory 
+
+more capture.c 
+
+more build 
+
+./capture -h 
+
+more raw2mpg4 
+
+./raw2mpg4 
+
+Ls -aL 
+
+ 
+
+//How to capture an image: 
+
+Ls -aL 
+
+more grabber.c 
+
+more build 
+
+./grabber 
+
+Ls -aL 
+
+rm *.ppm 
